@@ -492,7 +492,7 @@ Methods:
 
 **`shift`(vec [`Vector3`])**
 —
-Shifts the objects `center` by `vec`. This can also be accomplished via the `+` operator: `geometric_obj + Vector3(10,10,10)`.
+Shifts the objects `center` by `vec`. This can also be accomplished via the `+` operator: `geometric_obj + Vector3(10,10,10)` although it will return a `None`.
 
 **`info`(indent_by [`integer`])**
 —
